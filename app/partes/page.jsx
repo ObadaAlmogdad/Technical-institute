@@ -6,33 +6,33 @@ import { delay, motion } from "framer-motion";
 const partes = [
     {
         num: "01",
-        title: "حاسوب",
-        description: "عملية تطوير الواجهة الأمامية والخلفية لتطبيق أو موقع الويب.",
-        href: "https://www.linkedin.com/in/-79a090309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        title: "تقنيات الحاسوب",
+        description: "",
+        href: ""
     },
     {
         num: "02",
-        title: "كهربا",
-        description: "هو جزء من التطبيق الذي يدير الخوادم وقواعد البيانات ويعالج طلبات المستخدم.",
-        href: "https://www.linkedin.com/in/-79a090309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        title: "تقنيات الكهرباء",
+        description: "",
+        href: ""
     },
     {
         num: "03",
-        title: "ميكانيك",
-        description: "يتعلق بتنظيم وتخزين البيانات والوصول إليها بكفاءة.",
-        href: "https://www.linkedin.com/in/-79a090309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        title: "تقنيات ميكانيك المركبات",
+        description: "",
+        href: ""
     },
     {
         num: "04",
-        title: "الكترون",
-        description: "هو الجزء من الموقع أو التطبيق الذي يراه المستخدمون ويتفاعلون معه.",
-        href: "https://www.linkedin.com/in/-79a090309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        title: "تقنيات الالكترون",
+        description: "",
+        href: ""
     },
     {
         num: "05",
-        title: "إنشاءات معدنية",
-        description: "الواجهة التي يراها المستخدم ويتفاعل معها، تتضمن تصميم التخطيط والأزرار والعناصر البصرية.",
-        href: "https://www.linkedin.com/in/-79a090309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        title: "تقنيات الإنشاءات المعدنية",
+        description: "",
+        href: ""
     },
 ];
 

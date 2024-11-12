@@ -18,7 +18,7 @@ const info = [
     {
         icon: <FaEnvelope />,
         titke: "Email",
-        description: "المعهد التقاني@gmail.com"
+        description: "I-T-I-DARAA@gmail.com"
     },
     {
         icon: <FaMapMarkedAlt />,

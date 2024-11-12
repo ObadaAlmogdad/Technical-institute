@@ -1,12 +1,13 @@
 import Link from "next/link";
-import {FaGithub,FaLinkedinIn,FaYoutube,FaFacebook,FaTelegram,FaTwitter} from "react-icons/fa"
+import {FaFacebook,FaTelegram,FaInstagram,FaWhatsapp} from "react-icons/fa"
 
 const so =[
-    {icon:<FaGithub/>,path:"https://github.com/المعهد التقاني"},
-    {icon:<FaLinkedinIn/>,path:"https://www.linkedin.com/in/-79a090309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"},
-    // {icon:<FaYoutube/>,path:""},
-    {icon:<FaFacebook/>,path:"https://www.facebook.com/profile.php?id=100056847887506"},
-    {icon:<FaTelegram/>,path:"https://t.me/root_2020"},
+
+    {icon:<FaFacebook/>,path:"https://www.facebook.com/"},
+    {icon:<FaTelegram/>,path:"https://t.me/"},
+    {icon:<FaWhatsapp/>,path:"https://t.me/"},
+    {icon:<FaInstagram/>,path:"https://t.me/"},
+
 ]
 const Social =({containerStyles, iconStyles})=> {
     return (

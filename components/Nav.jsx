@@ -13,6 +13,10 @@ const links = [
         path: "/partes",
     },
     {
+        name: "المعرض",
+        path: "/slider",
+    },
+    {
         name: "ملخص",
         path: "/resume",
     },

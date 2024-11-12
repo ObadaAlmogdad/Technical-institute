@@ -21,8 +21,7 @@ const Photo = () => {
                     transition:{delay: 2.4, duration:0.4, ease:"easeInOut"},
                     }}
             
-            
-            className="w-[290px] h-[290px] xl:w-[298px] xl:w-[298px] mix-blend-lighten absolute">
+            className="w-[280px] h-[280px] xl:w-[260px] xl:w-[260px] absolute left-5 ">
                 <Image 
                     src="/assets/1.png" 
                     priority 
