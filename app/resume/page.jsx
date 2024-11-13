@@ -317,5 +317,4 @@ const Resume = () => {
         </motion.div>
     )
 }
-
 export default Resume
