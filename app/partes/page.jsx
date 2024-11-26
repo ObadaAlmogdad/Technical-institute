@@ -8,31 +8,31 @@ const partes = [
         num: "01",
         title: "تقنيات الحاسوب",
         description: "",
-        href: ""
+        href: "https://technical-institute.vercel.app/resume"
     },
     {
         num: "02",
         title: "تقنيات الكهرباء",
         description: "",
-        href: ""
+        href: "https://technical-institute.vercel.app/resume"
     },
     {
         num: "03",
         title: "تقنيات ميكانيك المركبات",
         description: "",
-        href: ""
+        href: "https://technical-institute.vercel.app/resume"
     },
     {
         num: "04",
         title: "تقنيات الالكترون",
         description: "",
-        href: ""
+        href: "https://technical-institute.vercel.app/resume"
     },
     {
         num: "05",
         title: "تقنيات الإنشاءات المعدنية",
         description: "",
-        href: ""
+        href: "https://technical-institute.vercel.app/resume"
     },
 ];
 
