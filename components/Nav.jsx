@@ -4,30 +4,32 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const links = [
+
     {
-        name: "الصفحة الرئيسية",
-        path: "/",
-    },
-    {
-        name: "الاقسام",
-        path: "/partes",
-    },
-    {
-        name: "المعرض",
-        path: "/slider",
-    },
-    {
-        name: "ملخص",
-        path: "/resume",
+        name: "تواصل",
+        path: "/contact",
     },
     {
         name: "مشاريع",
         path: "/work",
     },
     {
-        name: "تواصل",
-        path: "/contact",
+        name: "ملخص",
+        path: "/resume",
     },
+    {
+        name: "المعرض",
+        path: "/slider",
+    },
+    {
+        name: "الاقسام",
+        path: "/partes",
+    },
+    {
+        name: "الصفحة الرئيسية",
+        path: "/",
+    },
+    
 ];
 
 const Nav = () => {

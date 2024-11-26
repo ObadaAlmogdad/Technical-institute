@@ -25,7 +25,6 @@ const projects = [
         ],
         image: "/assets/work/12.png",
         live: "https://github.com/المعهد التقاني",
-        githup: "https://github.com/المعهد التقاني",
     },
     {
         num: "02",
@@ -37,7 +36,6 @@ const projects = [
         ],
         image: "/assets/work/11.png",
         live: "",
-        githup: "",
     },
 
     {
@@ -50,7 +48,6 @@ const projects = [
         ],
         image: "/assets/work/Screenshot_2.png",
         live: "https://github.com/المعهد التقاني/math-game-by-js/",
-        githup: "https://github.com/المعهد التقاني/math-game-by-js/",
     },
     {
         num: "04",
@@ -62,7 +59,6 @@ const projects = [
         ],
         image: "/assets/work/sokofarm.png",
         live: "https://github.com/المعهد التقاني/soko_farm_game",
-        githup: "https://github.com/المعهد التقاني/soko_farm_game",
     },
     {
         num: "05",
@@ -86,7 +82,6 @@ const projects = [
         ],
         image: "/assets/work/d1.png",
         live: "https://github.com/المعهد التقاني",
-        githup: "https://github.com/المعهد التقاني",
     },
     {
         num: "07",
@@ -98,7 +93,6 @@ const projects = [
         ],
         image: "/assets/work/thumb1.png",
         live: "https://github.com/المعهد التقاني",
-        githup: "https://github.com/المعهد التقاني",
     },
 
 ];
@@ -139,30 +133,18 @@ const Work = () => {
                                 })}
                             </ul>
                             {/*  */}
-                            <div className="border border-black/20"></div>
+                            <div className="border border-blue-300"></div>
+
                             {/* buttons */}
                             <div className=" flex items-center gap-4">
                                 <Link href={project.live}>
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
-                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-black/5 flex justify-center items-center group">
-                                                <BsArrowUpRight className="text-black text-3xl group-hover:text-accent" />
+                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full flex justify-center items-center group">
+                                                <BsArrowUpRight className="text-3xl group-hover:text-accent" />
                                             </TooltipTrigger>
-                                            <TooltipContent>
+                                            <TooltipContent className="border border-blue-300 text-stone-50">
                                                 <p>Live project</p>
-                                            </TooltipContent>
-                                        </Tooltip>
-                                    </TooltipProvider>
-                                </Link>
-
-                                <Link href={project.githup}>
-                                    <TooltipProvider delayDuration={100}>
-                                        <Tooltip>
-                                            <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-black/5 flex justify-center items-center group">
-                                                <BsGithub className="text-black text-3xl group-hover:text-accent" />
-                                            </TooltipTrigger>
-                                            <TooltipContent>
-                                                <p>Githup repo</p>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>

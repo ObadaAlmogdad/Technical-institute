@@ -7,16 +7,22 @@ import Image from "next/image";
 
 export default function Slider() {
   const images = [
-    '/assets/1.png',
-    '/assets/1.png',
-    '/assets/1.png',
-    '/assets/1.png',
-    '/assets/1.png',
-    '/images/image1.jpg',
-    '/images/image2.jpg',
-    '/images/image3.jpg',
-    '/images/image4.jpg',
-    // أضف مسارات الصور الأخرى
+    '/assets/t/1.jpg',
+    '/assets/t/2.jpg',
+    '/assets/t/3.jpg',
+    '/assets/t/4.jpg',
+    '/assets/t/5.jpg',
+    '/assets/t/6.jpg',
+    '/assets/t/7.jpg',
+    '/assets/t/8.jpg',
+    '/assets/t/9.jpg',
+    '/assets/t/10.jpg',
+    '/assets/t/11.jpg',
+    '/assets/t/12.jpg',
+    '/assets/t/13.jpg',
+    '/assets/t/14.jpg',
+    '/assets/t/15.jpg',
+
   ];
 
   return (
