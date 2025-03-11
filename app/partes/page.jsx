@@ -49,15 +49,16 @@ const Partes = () => {
                     className="grid grid-cols-1 md:grid-cols-2 gap-[60px] text-right"
                 >
                     {partes.map((partes, index) => {
+
                         return (
                             <div
                                 key={index}
-                                className="flex-1 flex flex-col justify-center gap-6 group"
+                                className="flex-1 xl:pt-4 flex flex-col justify-center gap-6 group"
                             >
                                 <div className="w-full flex justify-between items-center">
                                     <Link
                                         href={partes.href}
-                                        className="w-[70px] h-[70px] rounded-full bg-black group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
+                                        className="w-[70px] h-[70px] rounded-full bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
                                     >
                                         <BsArrowDownRight className="text-primary text-3xl" />
                                     </Link>

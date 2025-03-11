@@ -49,52 +49,6 @@ const projects = [
         image: "/assets/work/Screenshot_2.png",
         live: "https://github.com/المعهد التقاني/math-game-by-js/",
     },
-    {
-        num: "04",
-        category: "AI",
-        title: "soko farmar",
-        description: "I have developed my programming skills through the creation of this project, applying Java language concepts, as well as implementing some well-known search algorithms like BFS, DFS, and UCS.",
-        stack: [
-            { name: "Java" }, { name: "AI" },
-        ],
-        image: "/assets/work/sokofarm.png",
-        live: "https://github.com/المعهد التقاني/soko_farm_game",
-    },
-    {
-        num: "05",
-        category: "Frontend",
-        title: "Tic Tac Toe",
-        description: "Create game with Next.js.",
-        stack: [
-            { name: "Next.js" }, { name: "Css 3" },
-        ],
-        image: "/assets/work/xo.png",
-        live: "https://github.com/المعهد التقاني",
-        githup: "https://github.com/المعهد التقاني",
-    },
-    {
-        num: "06",
-        category: "Frontend",
-        title: "Dashboard",
-        description: "I completed this project by applying what I learned from Osama Elzero's channel and refining my skills in HTML, CSS, and JavaScript..",
-        stack: [
-            { name: "Html 5" }, { name: "Css 3" }, { name: "Js" },
-        ],
-        image: "/assets/work/d1.png",
-        live: "https://github.com/المعهد التقاني",
-    },
-    {
-        num: "07",
-        category: "frontend",
-        title: "project 1",
-        description: "Created a fully responsive and interactive website using HTML, CSS, and JavaScript.",
-        stack: [
-            { name: "Html 5" }, { name: "Css 3" }, { name: "Js" },
-        ],
-        image: "/assets/work/thumb1.png",
-        live: "https://github.com/المعهد التقاني",
-    },
-
 ];
 
 const Work = () => {
