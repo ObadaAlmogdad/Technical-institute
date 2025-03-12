@@ -7,31 +7,26 @@ const partes = [
     {
         num: "01",
         title: "تقنيات الحاسوب",
-        description: "",
         href: "https://technical-institute.vercel.app/resume"
     },
     {
         num: "02",
         title: "تقنيات الكهرباء",
-        description: "",
         href: "https://technical-institute.vercel.app/resume"
     },
     {
         num: "03",
         title: "تقنيات ميكانيك المركبات",
-        description: "",
         href: "https://technical-institute.vercel.app/resume"
     },
     {
         num: "04",
         title: "تقنيات الالكترون",
-        description: "",
         href: "https://technical-institute.vercel.app/resume"
     },
     {
         num: "05",
         title: "تقنيات الإنشاءات المعدنية",
-        description: "",
         href: "https://technical-institute.vercel.app/resume"
     },
 ];
@@ -49,7 +44,6 @@ const Partes = () => {
                     className="grid grid-cols-1 md:grid-cols-2 gap-[60px] text-right"
                 >
                     {partes.map((partes, index) => {
-
                         return (
                             <div
                                 key={index}
@@ -62,7 +56,6 @@ const Partes = () => {
                                     >
                                         <BsArrowDownRight className="text-primary text-3xl" />
                                     </Link>
-
                                     <div className="text-5xl font-extrabold text-outline text-transparent group-hover:text-outline-hover transition-all duration-500">
                                         {partes.num}
                                     </div>
@@ -71,7 +64,6 @@ const Partes = () => {
                                 <h2 className="text-[42px] font-bold leading-none text-black group-hover:text-accent transition-all duration-500">
                                     {partes.title}
                                 </h2>
-                                <p className="text-black/80 ">{partes.description}</p>
                                 <div className="border-b border-black/20 w-full"></div>
                             </div>
                         )

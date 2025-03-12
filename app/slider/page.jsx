@@ -78,7 +78,6 @@ export default function Slider() {
                 alt={`image-${index}`} 
                 className={styles.image} 
               />
-              {/* <p className={styles.caption}>{captions[index % captions.length]}</p> */}
             </div>
           </motion.div>
         ))}

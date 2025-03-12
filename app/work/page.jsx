@@ -17,38 +17,39 @@ import WorkSliderBtns from "@/components/WorkSliderBtns"
 const projects = [
     {
         num: "01",
-        category: "Backend",
-        title: "School Mangment System",
-        description: "Developed a school management system using Laravel to provide a robust backend architecture and RESTful API. The system streamlines essential administrative tasks, including student and teacher management, attendance tracking, curriculum planning, and exam management. The project demonstrates strong skills in backend development, database management, and API design.",
+        category: "تقنيات الحاسوب",
+        title: "نظام تحكم باشارة اليد",
+        description: "هو مشروع يسمح للاشخاص ذوي الاحتياجات الخاصة بالتحكم بالاجهزة والادوات المختلفة باستخدام اشارات اليد",
         stack: [
-            { name: "Laravel" }, { name: "API" }, { name: "Database" },
+            { name: "رؤية حاسوبية" }, { name: "برمجة" }, { name: "تحكم" },
         ],
-        image: "/assets/work/12.png",
-        live: "https://github.com/المعهد التقاني",
+        image: "/assets/work/1.jpg",
+        live: "",
     },
     {
-        num: "02",
-        category: "Backend",
-        title: "Pharma",
-        description: "Designed and developed a Pharmacy Management System using Laravel to create a robust backend with a RESTful API. The system supports core pharmacy operations, including inventory management, prescription handling, supplier tracking, and sales processing. The API enables secure and efficient data management, ensuring smooth integration with front-end applications and third-party systems. ",
+        num: "01",
+        category: "طاقة والكترون",
+        title: "الطاقة البديلة",
+        description: "انشاء نموذج للطاقة الشمسية بحيث يدعم نظام تتبع شمسي بحيث نتتبع حركة الشمس و توجية الالواح على هذا الاساس للحصول على اكبر قدر ممكن من الطاقة باستخدام مقاومات ضوئية لاستشعار موضع الشمس ",
         stack: [
-            { name: "Laravel" }, { name: "API" }, { name: "Database" },
+            { name: "مصادر مستدامة" }, { name: "طاقة نظيفة" }, { name: "كهرباء" },
         ],
-        image: "/assets/work/11.png",
+        image: "/assets/work/2.png",
+        live: "",
+    },
+    {
+        num: "03",
+        category: "انشائات معدنية",
+        title: "رافعة ميكانيكية",
+        description: "مشروع تصميم و تنفيذ رافعة ميكانيكية متعددة الاستخدام يحث يمكن استخدامها في العمليات الانشائية وغيرها من الامور التي تتطلب الى محركات ذات قوة كبيلاة",
+        stack: [
+            { name: "محركات" }, { name: "ميكانيك" }, { name: "تروس" },
+        ],
+        image: "/assets/work/3.jpg",
         live: "",
     },
 
-    {
-        num: "03",
-        category: "Game",
-        title: "Math game",
-        description: "Created a game in a website using HTML, CSS, and JavaScript. The game is beneficial in both educational and recreational fields, as it improves the user's speed in performing mathematical operations and creates a competitive atmosphere for breaking records.",
-        stack: [
-            { name: "Html 5" }, { name: "Css 3" }, { name: "Js" },
-        ],
-        image: "/assets/work/Screenshot_2.png",
-        live: "https://github.com/المعهد التقاني/math-game-by-js/",
-    },
+
 ];
 
 const Work = () => {
@@ -71,7 +72,7 @@ const Work = () => {
                                 {project.num}
                             </div>
                             <h2 className="text-[42px] font-blod leadinng-none text-black group-hover:text-accent transition-all duration-500 capitalize">
-                                {project.category} project
+                            مشروع {project.category} 
                             </h2>
                             <p className="text-black/60 ">{project.title}</p>
                             <p className="text-black/60 ">{project.description}</p>

@@ -12,17 +12,17 @@ import { motion } from "framer-motion";
 const info = [
     {
         icon: <FaPhoneAlt />,
-        titke: "Phone",
+        title: "Phone",
         description: "0999999999"
     },
     {
         icon: <FaEnvelope />,
-        titke: "Email",
+        title: "Email",
         description: "I-T-I-DARAA@gmail.com"
     },
     {
         icon: <FaMapMarkedAlt />,
-        titke: "Address",
+        title: "Address",
         description: "Dara Syria"
     },
 ];
@@ -38,9 +38,6 @@ const Contact = () => {
                             <h3 className="text-4xl text-accent">
                                 اخبرنا بما تريد
                             </h3>
-                            {/* <p className="text-black/60">asdasd asdasdasdasdasdasdasdasd
-                            asdasdasdasdasdasdasdasdasdasd
-                            </p> */}
                             <div className="grid grid-cols-1 mb:grid-cols-2 sm:grid-cols-2 gap-6">
                                 <Input type="firstname" placeholder="الاسم" />
                                 <Input type="lastname" placeholder="الكنية" />
@@ -70,7 +67,6 @@ const Contact = () => {
 
                         </form>
                     </div>
-
                     <div className="flex flex-1 items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
                         <ul>
                             {info.map((item, index) => {
@@ -82,7 +78,7 @@ const Contact = () => {
                                             </div>
                                         </div>
                                         <div className="flex-1">
-                                            <p className="text-black/60">{item.titke}</p>
+                                            <p className="text-black/60">{item.title}</p>
                                             <h3 className="text-xl">{item.description}</h3>
                                         </div>
                                     </li>
