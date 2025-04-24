@@ -5,31 +5,6 @@ import styles from './style-slider.module.css';
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-// const captions = [
-//   "قسم تقنيات الحاسوب",
-//   "قسم تقنيات الحاسوب",
-//   "هندسة معمارية مدهشة",
-//   "تصميم داخلي أنيق",
-//   "لوحة فنية رائعة",
-//   "قسم تقنيات الحاسوب",
-//   "قسم تقنيات الحاسوب",
-//   "قسم تقنيات الحاسوب",
-//   "طبيعة ساحرة",
-//   "تصميم جرافيكي مبدع",
-//   "هندسة دقيقة",
-//   "فنون مرئية متميزة",
-//   "عمارة تقليدية",
-//   "ديكور عصري",
-//   "تصميم مستدام",
-//   "إبداع لوني",
-//   "عناصر طبيعية",
-//   "تكنولوجيا وعمارة",
-//   "أنماط تصميمية",
-//   "إضاءة مبتكرة",
-//   "تفاصيل دقيقة",
-//   "رؤية فنية فريدة"
-// ];
-
 export default function Slider() {
   const images = [
     '/assets/t/1.jpg',
@@ -93,7 +68,6 @@ export default function Slider() {
                 alt={`image-${index}`} 
                 className={styles.image} 
               />
-              {/* <p className={styles.caption}>{captions[index % captions.length]}</p> */}
             </div>
           </motion.div>
         ))}
